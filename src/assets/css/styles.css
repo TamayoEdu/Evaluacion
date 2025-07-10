@@ -1,0 +1,22 @@
+.mi-nav {
+    background-color: white;
+    box-shadow: 0 1px 10px gray;
+    font-size: 20px;
+}
+
+.palabra {
+    color: black;
+}
+
+.busqueda {
+    background-color: white;
+    color: black;
+}
+
+.icono {
+    color: white;
+}
+
+.logo {
+    font-size: 50px;
+}
