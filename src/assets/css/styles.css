@@ -1,22 +1,74 @@
-.mi-nav {
+.fondo {
     background-color: white;
-    box-shadow: 0 1px 10px gray;
-    font-size: 20px;
 }
 
-.palabra {
-    color: black;
+.cuerpo {
+    align-items: center;
 }
 
-.busqueda {
-    background-color: white;
-    color: black;
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
-.icono {
-    color: white;
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 
-.logo {
-    font-size: 50px;
+.titulos-input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.contenedor-multimedia {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-video {
+    color: #333;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.video-descripcion {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background: #000;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-fotter {
+    background-color: #000;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.contenido-fotter {
+    padding: 1rem;
 }

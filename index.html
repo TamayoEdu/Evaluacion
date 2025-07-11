@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nombre del Proyecto - Empresa XYZ</title>
-  
   <script src="https://cdn.tailwindcss.com"></script>
-  
   <link rel="stylesheet" href="estilos.css" />
+    <!--IMPORTAR FLOWBITE-->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <!--FAVICON DE EDUARDO-->
+    <link rel="icon" href="src/assets/imagenes/logo.svg">
+    <!--ENLACE ESTILOS DE EDUARDO-->
+    <link rel="stylesheet" href="src/assets/css/styles.css">
+    <title>Correccion Evaluacion</title>
 </head>
   <!--NAV DE ANDY-->
   <!--NAV-->
@@ -90,6 +97,79 @@
       </div>
     </div>
   </main>
+  
+  <!--SECCION 3 (FORMULARIO Y FOOTER) DE EDUARDO-->
+    <!--SECCION DE EDUARDO-->
+    <section class="form-section bg-[#f9dbbd] p-6 md:p-8 lg:p-10">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="flex-shrink-0">
+                    <img src="src/assets/imagenes/contacto.svg" alt="Icono de contacto"
+                        class="w-16 h-16 md:w-20 md:h-20 object-contain">
+                </div>
+                <div class="text-center-container">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Contáctanos</h2>
+                    <p class="text-gray-600 mt-2">Puedes decirnos tus inquietudes mediante este formulario<br>Por favor
+                        ingrese los siguientes datos.</p>
+                </div>
+            </div>
+            <!--FORMULARIO DE EDUARDO-->
+            <form class="space-y-4" id="contactForm">
+                <div>
+                    <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900">Nombre</label>
+                    <input type="text" id="first-name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                        placeholder="Juan" required>
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Correo electrónico</label>
+                    <input type="email" id="email"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                        placeholder="nombre@email.com" required>
+                </div>
+                <div>
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Mensaje</label>
+                    <textarea id="message" rows="6"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+                        placeholder="Deja un comentario..."></textarea>
+                </div>
+                <button type="submit"
+                    class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Enviar
+                    mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!--CONTENEDOR MULTIMEDIA DE EDUARDO-->
+    <div class="contenedor-multimedia max-w-4xl mx-auto my-8 px-4 text-center-container">
+        <h2 class="titulo-video text-2xl font-bold text-gray-800 mb-2">¿Qué es el DOM? - JavaScript</h2>
+        <p class="video-descripcion text-gray-600 mb-4">Con este pequeño video informativo podrás saber más acerca del
+            DOM</p>
+
+        <div class="video-wrapper relative pb-[56.25%] h-0 overflow-hidden rounded-lg border-2 border-black">
+            <video controls class="video-responsivo absolute top-0 left-0 w-full h-full">
+                <source src="src/assets/multimedia/Que es el DOM - JavaScript.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+
+    <!--FOOTER DE EDUARDO-->
+    <footer class="contenedor-footer bg-gray-900 text-gray-300 rounded-lg shadow m-4 max-w-4xl mx-auto">
+        <div class="contenido-footer p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm sm:text-center">
+                © 2025 "Corrección de la Evaluación Dos". Todos los derechos reservados.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm sm:mt-0">
+                <li>
+                    <a href="#inicio" class="hover:text-white me-4 md:me-6 hover:underline">Inicio</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--EJERCICIO SCRIPT DE EDUARDO-->
+    <script src="https://TamayoEdu.github.io/CorreccionEvaluacion/src/assets/js/sistema_academico.js"></script>
 
 </body>
 
